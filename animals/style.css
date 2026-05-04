@@ -1,0 +1,143 @@
+.gallery .preview {
+    width: 100%;
+    height: auto;
+}
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+.gallery .gallery-thumbnails img {
+    width: 100px;
+    height: 75px;
+    object-fit: cover;
+    margin: 4px;
+    border: 2px solid #6a745f;
+    padding: 2px;
+    background-color: #fff;
+}
+.gallery .gallery-thumbnails img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+header {
+    background-color: #3986d3;
+    color: white;
+    text-align: center;
+    padding: 18px 0 10px 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav {
+    background-color: #80847b;
+    text-align: center;
+    padding: 8px 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    display: inline-block;
+    margin: 0 18px;
+}
+nav a {
+    text-decoration: none;
+    color: rgb(243, 187, 2);
+    font-size: 0.72rem;
+    font-weight: bold;
+}
+.hero-image {
+    width: 100%;
+    max-width: 1200px;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    border: 3px solid #6a745f;
+    padding: 4px;
+    background-color: #fff;
+}
+.intro-row {
+    width: 760px;
+    margin: 18px auto 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.camera-icon {
+    width: 60px;
+    text-align: center;
+    color: #37454d;
+    font-size: 4rem;
+}
+.intro-box {
+    width: 580px;
+    background-color: #ece7dd;
+    border: 1px solid #999;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+    padding: 12px 16px;
+}
+.intro-box p {
+    margin: 0;
+    font-size: 0.8rem;
+    line-height: 1.5;
+    color: #333;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.preview {
+    border: 2px solid #6a745f;
+    padding: 10px;
+    background-color: #ece7dd;
+    width: fit-content;
+    margin: 0 auto 20px auto;
+}
+footer {
+    margin-top: 10px;
+}
+.footer-top {
+    background-color: #01407a;
+    color: rgb(247, 245, 243);
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 22px;
+}
+.footer-left,
+.footer-right {
+    width: 48%;
+}
+.footer-top h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+.footer-top p {
+    margin: 6px 0;
+    font-size: 0.8rem;
+    line-height: 1.5;
+}
+.footer-right i {
+    margin-right: 8px;
+}
+.footer-bottom {
+    background-color: #2f4350;
+    color: rgb(248, 248, 248);
+    text-align: center;
+    padding: 10px;
+    font-size: 0.75rem;
+}
+
+
+   
+    
+   
+    
+
+
+
+
+
+
